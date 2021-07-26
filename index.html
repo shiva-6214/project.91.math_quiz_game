@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Math Quiz Game!</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="quiz_login.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <!-- <div class="card my-5">
+            <div class="card-body">
+                <h2 class="card-title text-center">Player 1 Login for the game</h2>
+
+                <div class="form-group">
+                    <label for="exampleInputEmail1">User Name:</label>
+                    <input type="name" class="form-control text-success" id="txt_userName1" placeholder="Player 1 Name">
+                </div>
+
+                <div class="form-group">
+                    <label for="exampleInputEmail1">User Name:</label>
+                    <input type="name" class="form-control text-success" id="txt_userName2" placeholder="Player 2 Name">
+                </div>
+
+                <button class="btn btn-success" onclick="addUser()">Login</button>
+            </div>
+        </div> -->
+
+        <section class="myform-area">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="form-area login-form">
+                            <div class="form-content">
+                                <h2>Login</h2>
+                                <p>Login to maths quiz game!!!</p>
+                            </div>
+                            <div class="form-input">
+                                <h2>Login Form</h2>
+                                <div>
+                                    <div class="form-group">
+                                        <input autocomplete="off" type="text" id="player1_text" name="player1" required>
+                                        <label>Player 1</label>
+                                    </div>
+                                    <div class="form-group">
+                                        <input autocomplete="off" type="text" id="player2_text" name="player2" required>
+                                        <label>Player 2</label>
+                                    </div>
+                                    <div class="myform-button">
+                                        <button class="myform-btn" onclick="addUser()">Login</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
